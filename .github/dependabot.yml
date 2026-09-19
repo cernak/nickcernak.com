@@ -1,0 +1,8 @@
+# Keeps the actions used by this repo's workflows patched automatically.
+# Dependabot opens a pull request when a new version or a security fix lands.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
